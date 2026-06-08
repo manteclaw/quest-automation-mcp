@@ -1,0 +1,37 @@
+{
+  "name": "quest-automation-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for automating web3 quest completion across DustSwap, Galxe, Zealy, Layer3, and RabbitHole",
+  "main": "quest-automation-mcp.py",
+  "author": "manteclaw",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "quest",
+    "automation",
+    "web3",
+    "airdrop",
+    "dustswap",
+    "galxe",
+    "zealy",
+    "base",
+    "crypto"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manteclaw/quest-automation-mcp"
+  },
+  "engines": {
+    "python": ">=3.9"
+  },
+  "dependencies": {
+    "mcp": "^1.0.0"
+  },
+  "mcp": {
+    "server": {
+      "type": "stdio",
+      "command": "python3",
+      "args": ["quest-automation-mcp.py"]
+    }
+  }
+}
